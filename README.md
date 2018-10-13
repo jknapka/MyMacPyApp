@@ -9,7 +9,7 @@ Basic structure:
   - MyMacPyApp.app/
     - Contents/
       - app.py - the Python script that will run when the app is launched.
-      - MacOS
+      - MacOS/
         - MyMacPyApp - An executable bash script that launches app.py
 
 The naming is important - the launcher script must be named
