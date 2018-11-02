@@ -3,7 +3,7 @@
 # Launcher script for example application.
 #
 # This script finds its current directory, cd's to
-# the parent directory, and executed the app.py
+# the parent directory, and executes the app.py
 # script there using the default Python interpreter.
 cd "$(dirname $0)"/..
 export PYTHONPATH=.:${PYTHONPATH}
